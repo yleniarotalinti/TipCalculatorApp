@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //prova commit
     private fun calculateTip() {
         val tip = binding.costOfServiceEditText.text.toString().toDoubleOrNull()
         if(tip==null){
